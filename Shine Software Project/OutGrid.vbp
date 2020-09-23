@@ -1,0 +1,48 @@
+Type=Control
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINNT\System32\stdole2.tlb#OLE Automation
+Reference=*\G{5F7C62D4-9130-11D1-8E21-E08C04C10000}#8.2#0#..\..\..\..\Documents and Settings\mturillo\Desktop\Progetto\oggetti\SSubTmr.dll#Subclassing and Timer Assistant (with configurable message response, multi-control support + timer bug fix)
+Reference=*\G{71A2702D-C7D8-11D2-BEF8-525400DFB47A}#1.0#0#..\..\..\..\WINNT\system32\SSubTmr6.dll#vbAccelerator VB6 Subclassing and Timer Assistant (with configurable message response, multi-control support + timer bug fix)
+Object={543749C9-8732-11D3-A204-0090275C8BC1}#1.0#0; vbalGrid6.ocx
+Object={86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCT2.OCX
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
+UserControl=Outgrid.ctl
+Form=FrmRisorsa.frm
+Module=ModGenerale; ModGenerale.bas
+PropertyPage=Impostazioni_Generali.pag
+Startup="(None)"
+HelpFile=""
+ExeName32="OutGrid.ocx"
+Path32="..\OutGrid"
+Command32=""
+Name="PrjOutGrid"
+HelpContextID="0"
+CompatibleMode="1"
+CompatibleEXE32="OutGrid.ocx"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="SeaSoft SPA"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=cControlFlater
